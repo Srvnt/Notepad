@@ -76,18 +76,13 @@ namespace Notepad
         public void MenuItem_Click_4(object sender, RoutedEventArgs e)
         {
             Font font = new Font();
-            //font.ShowDialog();
             bool? DialogResult = font.ShowDialog();
             if (DialogResult == true)
             {
                 int size = font.size;
                 textbox.FontSize = size;
             }
-            //if (font.ShowDialog() == true)
-            //{
-            //    textbox.FontSize = font.size;
-            //}
-
+           
 
         }
     }
