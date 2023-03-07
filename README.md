@@ -1,1 +1,1 @@
-Notepad
+Simple Notepad like app
